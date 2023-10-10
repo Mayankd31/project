@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #004aad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    top: 0px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+   
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.nav-list li{
+    list-style: none;
+    padding: 25px 30px;
+}
+
+
+.nav-list a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.nav-list li a:hover{
+    text-decoration: underline;
+}
+
+.rightNav{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    font-size: 20px;
+}
+
+.rightNav a 
+{
+    text-decoration: none;
+}
+
+
+.rightNav a span{
+    color: black;
+   
+}
+
+
+.btn{
+    margin: 10px 30px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.firstSection{
+    display: flex;
+    height: 630px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    /* background: red; */
+    background-size: 1525px 820px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: 85vh;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    color: black;
+    font-family: 'Mulish', sans-serif;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    
+    z-index: 100;
+
+}
+
+/* .text .content{
+    width: 100%;
+    margin: 10px 10px;
+} */
+
+/* .text .sml{
+    width: 100%;
+    text-align: center;
+} */
+
+
+.Content{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+
+/* .secondSection{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+.para{
+    margin: 15px 10px;
+    text-align: justify;
+}
+*/
+.Heading{
+    display: flex;
+    margin: 20px 20px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin-top: 100px;
+    
+} 
+
+.subHeading{
+    font-size: 25px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+
+}
+
+.secondSection{
+    margin: 50px 10px;
+    padding: 10px 10px;
+}
+
+.secondSection table{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    justify-content: center;
+}
+
+
+.secondSection th{
+    font-size: 20px;
+    width: 333px;
+}
+
+
+.secondSection td{
+    align-items: center;
+    padding: 10px 80px;
+}
+
+.tableHeading{
+    text-align: center;
+    font-size: 20px;
+}
+
+.star{
+    text-align: center;
+    font-size: 30px;
+}
+
+.review{
+    text-align: justify;
+}
+
+.name{
+    text-align: center;
+    font-size: 15px;
+}
+
+.photo img{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 170px;
+}
+
+#Home{
+    background-image: url(/images/parking\ image\ \(2\).jpg);
+    background-repeat: no-repeat;
+    /* filter: blur(1px);
+    -webkit-filter: blur(8px);
+    filter: brightness(1);
+     */
+    
+}
+
+
+
